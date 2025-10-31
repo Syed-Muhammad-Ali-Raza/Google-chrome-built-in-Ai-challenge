@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Studio - Chrome Built-in AI Challenge 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Content Studio</h1>
+            <p class="subtitle">Powered by Chrome Built-in AI - Create, refine, and translate content locally with privacy</p>
+            <button class="help-btn" onclick="window.showSetupInstructions && window.showSetupInstructions()" title="Setup Instructions">
+                 Setup Help
+            </button>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="writer">Writer</button>
+            <button class="tab-btn" data-tab="rewriter">Rewriter</button>
+            <button class="tab-btn" data-tab="proofreader">Proofreader</button>
+            <button class="tab-btn" data-tab="summarizer">Summarizer</button>
+            <button class="tab-btn" data-tab="translator">Translator</button>
+            <button class="tab-btn" data-tab="prompt">Prompt API</button>
+        </nav>
+
+        <!-- Writer Tab -->
+        <div class="tab-content active" id="writer">
+            <div class="feature-card">
+                    <h2>AI Writer</h2>
+                <p>Generate original and engaging text based on your prompts</p>
+                <div class="input-group">
+                    <label for="writer-prompt">What would you like to write about?</label>
+                    <textarea id="writer-prompt" placeholder="E.g., Write a short blog post about the benefits of client-side AI..." rows="4"></textarea>
+                </div>
+                <button class="action-btn" id="writer-btn">Generate Content</button>
+                <div class="output-container">
+                    <div class="output-label">Generated Content:</div>
+                    <div class="output" id="writer-output"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rewriter Tab -->
+        <div class="tab-content" id="rewriter">
+            <div class="feature-card">
+                <h2>AI Rewriter</h2>
+                <p>Improve your content with alternative phrasing and better structure</p>
+                <div class="input-group">
+                    <label for="rewriter-input">Enter text to improve:</label>
+                    <textarea id="rewriter-input" placeholder="Paste your text here..." rows="6"></textarea>
+                </div>
+                <button class="action-btn" id="rewriter-btn">Rewrite Content</button>
+                <div class="output-container">
+                    <div class="output-label">Improved Content:</div>
+                    <div class="output" id="rewriter-output"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proofreader Tab -->
+        <div class="tab-content" id="proofreader">
+            <div class="feature-card">
+                <h2>AI Proofreader</h2>
+                <p>Correct grammar mistakes and improve writing clarity</p>
+                <div class="input-group">
+                    <label for="proofreader-input">Enter text to proofread:</label>
+                    <textarea id="proofreader-input" placeholder="Paste text with potential grammar errors..." rows="6"></textarea>
+                </div>
+                <button class="action-btn" id="proofreader-btn">Proofread</button>
+                <div class="output-container">
+                    <div class="output-label">Corrected Text:</div>
+                    <div class="output" id="proofreader-output"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Summarizer Tab -->
+        <div class="tab-content" id="summarizer">
+            <div class="feature-card">
+                <h2>AI Summarizer</h2>
+                <p>Distill complex information into clear, concise insights</p>
+                <div class="input-group">
+                    <label for="summarizer-input">Enter text to summarize:</label>
+                    <textarea id="summarizer-input" placeholder="Paste long text, articles, or documents here..." rows="8"></textarea>
+                </div>
+                <button class="action-btn" id="summarizer-btn">Summarize</button>
+                <div class="output-container">
+                    <div class="output-label">Summary:</div>
+                    <div class="output" id="summarizer-output"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Translator Tab -->
+        <div class="tab-content" id="translator">
+            <div class="feature-card">
+                <h2> AI Translator</h2>
+                <p>Translate text into your preferred language</p>
+                <div class="input-group">
+                    <label for="translator-input">Enter text to translate:</label>
+                    <textarea id="translator-input" placeholder="Enter text in any language..." rows="4"></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="target-language">Target Language:</label>
+                    <select id="target-language">
+                        <option value="es">Spanish</option>
+                        <option value="fr">French</option>
+                        <option value="de">German</option>
+                        <option value="it">Italian</option>
+                        <option value="pt">Portuguese</option>
+                        <option value="ja">Japanese</option>
+                        <option value="ko">Korean</option>
+                        <option value="zh">Chinese</option>
+                        <option value="ar">Arabic</option>
+                        <option value="ru">Russian</option>
+                    </select>
+                </div>
+                <button class="action-btn" id="translator-btn">Translate</button>
+                <div class="output-container">
+                    <div class="output-label">Translated Text:</div>
+                    <div class="output" id="translator-output"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Prompt API Tab -->
+        <div class="tab-content" id="prompt">
+            <div class="feature-card">
+                <h2> Prompt API</h2>
+                <p>Generate dynamic prompts and structured outputs with multimodal support</p>
+                <div class="input-group">
+                    <label for="prompt-input">Enter your prompt:</label>
+                    <textarea id="prompt-input" placeholder="Describe what you want to generate..." rows="4"></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="prompt-type">Output Type:</label>
+                    <select id="prompt-type">
+                        <option value="text">Text Response</option>
+                        <option value="structured">Structured Output (JSON)</option>
+                    </select>
+                </div>
+                <button class="action-btn" id="prompt-btn">Generate</button>
+                <div class="output-container">
+                    <div class="output-label">Response:</div>
+                    <div class="output" id="prompt-output"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Built for Google Chrome Built-in AI Challenge 2025 | Powered by Gemini Nano</p>
+            <p class="privacy-note"> All processing happens locally on your device - your data never leaves your browser</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
