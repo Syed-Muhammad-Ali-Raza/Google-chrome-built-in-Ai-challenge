@@ -1,28 +1,28 @@
-# AI Content Studio 🧠
+# AI Content Studio 
 
 A modern web application built for the **Google Chrome Built-in AI Challenge 2025** that showcases the power of client-side AI processing using Chrome's built-in AI APIs and Gemini Nano.
 
-## 🌟 Features
+## Features
 
 AI Content Studio is a comprehensive content creation and editing tool that utilizes multiple Chrome Built-in AI APIs:
 
-- **✏️ Writer API**: Generate original and engaging text from prompts
-- **🖊️ Rewriter API**: Improve content with alternative phrasing and better structure
-- **🔤 Proofreader API**: Correct grammar mistakes and enhance writing clarity
-- **📄 Summarizer API**: Distill complex information into clear, concise insights
-- **🌐 Translator API**: Translate text into multiple languages
-- **💭 Prompt API**: Generate dynamic prompts and structured outputs (multimodal support)
+- ** Writer API**: Generate original and engaging text from prompts
+- ** Rewriter API**: Improve content with alternative phrasing and better structure
+- ** Proofreader API**: Correct grammar mistakes and enhance writing clarity
+- ** Summarizer API**: Distill complex information into clear, concise insights
+- ** Translator API**: Translate text into multiple languages
+- ** Prompt API**: Generate dynamic prompts and structured outputs (multimodal support)
 
-## 🔒 Privacy & Benefits
+##  Privacy & Benefits
 
 All AI processing happens **locally on your device** - your data never leaves your browser! This provides:
 
-- ✅ **Inherent Privacy**: User input and context never leave the device
-- ✅ **Network Resilience**: Works offline and on unstable connections
-- ✅ **Cost Efficiency**: No server costs or API quotas
-- ✅ **Creative Freedom**: Build proactive AI patterns without limitations
+-  **Inherent Privacy**: User input and context never leave the device
+-  **Network Resilience**: Works offline and on unstable connections
+-  **Cost Efficiency**: No server costs or API quotas
+-  **Creative Freedom**: Build proactive AI patterns without limitations
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -130,7 +130,7 @@ This project demonstrates usage of the following Chrome Built-in AI APIs:
 6. **Translator API** (`window.ai.translator`)
    - Translates text between multiple languages
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Content creation and editing workflows often require:
 - Multiple tools and subscriptions for different tasks
@@ -140,27 +140,27 @@ Content creation and editing workflows often require:
 
 **Solution**: AI Content Studio consolidates all content creation and editing needs into a single, privacy-focused, offline-capable web application that runs entirely on the client side using Chrome's Built-in AI capabilities.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **HTML5**: Semantic markup and structure
 - **CSS3**: Modern styling with gradients, animations, and responsive design
 - **Vanilla JavaScript**: No dependencies, pure client-side code
 - **Chrome Built-in AI APIs**: Integration with Gemini Nano and Chrome AI models
 
-## 📱 Browser Compatibility
+## Browser Compatibility
 
 - Google Chrome (with Built-in AI features enabled)
 - Requires Chrome Built-in AI Early Preview Program access
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+##  Contributing
 
 This project was created for the Google Chrome Built-in AI Challenge 2025. Contributions and feedback are welcome!
 
-## 📧 Contact
+##  Contact
 
 For questions or feedback about this project, please open an issue in the repository.
 
