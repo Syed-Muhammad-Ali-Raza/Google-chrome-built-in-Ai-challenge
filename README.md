@@ -6,12 +6,12 @@ A modern web application built for the **Google Chrome Built-in AI Challenge 202
 
 AI Content Studio is a comprehensive content creation and editing tool that utilizes multiple Chrome Built-in AI APIs:
 
-- ** Writer API**: Generate original and engaging text from prompts
-- ** Rewriter API**: Improve content with alternative phrasing and better structure
-- ** Proofreader API**: Correct grammar mistakes and enhance writing clarity
-- ** Summarizer API**: Distill complex information into clear, concise insights
-- ** Translator API**: Translate text into multiple languages
-- ** Prompt API**: Generate dynamic prompts and structured outputs (multimodal support)
+- **Writer API**: Generate original and engaging text from prompts
+- **Rewriter API**: Improve content with alternative phrasing and better structure
+- **Proofreader API**: Correct grammar mistakes and enhance writing clarity
+- **Summarizer API**: Distill complex information into clear, concise insights
+- **Translator API**: Translate text into multiple languages
+- **Prompt API**: Generate dynamic prompts and structured outputs (multimodal support)
 
 ##  Privacy & Benefits
 
